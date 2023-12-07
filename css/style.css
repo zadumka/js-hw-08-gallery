@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style-type: none;
+}
+.gallery {
+  margin: 50px auto;
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+  max-width: 1440px;
+  justify-content: center;
+  align-items: center;
+}
+.gallery-item {
+  max-width: 360px;
+}
+
+.gallery-image {
+  max-width: 100%;
+  object-fit: cover;
+  cursor: url('../src/cursor.png'), auto;
+}
+.modalImage {
+  width: 1112px;
+  object-fit: cover;
+}
